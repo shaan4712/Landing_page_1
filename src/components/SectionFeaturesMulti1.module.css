@@ -1,0 +1,320 @@
+.imageIcon {
+  width: 515px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.title {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  font-weight: 500;
+  font-family: inherit;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+}
+.loremIpsumDolor,
+.musDonecQuam {
+  display: block;
+}
+.body {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--medium-16-size);
+  line-height: 26px;
+  color: var(--colour-main-blue-400);
+  flex-shrink: 0;
+  debug_commit: 69da668;
+}
+.textBlocksectionlargetitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 154px;
+  gap: var(--gap-base);
+}
+.elementcardinfoCardsmalliIcon {
+  height: 36px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.body1,
+.elementcardinfoCardsmalliIcon,
+.title1 {
+  align-self: stretch;
+  position: relative;
+}
+.title1 {
+  line-height: 26px;
+  font-weight: 500;
+}
+.body1 {
+  margin: 0;
+  font-size: var(--regular-12-size);
+  line-height: 18px;
+  color: var(--colour-main-grey-600);
+}
+.elementcardinfoCardmedium,
+.titleParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.titleParent {
+  align-self: stretch;
+  gap: var(--gap-7xs);
+}
+.elementcardinfoCardmedium {
+  flex: 1;
+  padding: 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+  gap: var(--gap-sm);
+  min-width: 211px;
+  max-width: 100%;
+}
+.elementcardinfoCardsmalliIcon1 {
+  height: 36px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.body2,
+.elementcardinfoCardsmalliIcon1,
+.title2 {
+  align-self: stretch;
+  position: relative;
+}
+.title2 {
+  line-height: 26px;
+  font-weight: 500;
+}
+.body2 {
+  margin: 0;
+  font-size: var(--regular-12-size);
+  line-height: 18px;
+  color: var(--colour-main-grey-600);
+}
+.titleGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.elementcardinfoCardmedium1,
+.elementcardinfoCardmediumParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.elementcardinfoCardmedium1 {
+  flex: 1;
+  flex-direction: column;
+  padding: 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+  gap: var(--gap-sm);
+  min-width: 211px;
+}
+.elementcardinfoCardmediumParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-6xl);
+}
+.elementcardinfoCardsmalliIcon2 {
+  height: 36px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.body3,
+.elementcardinfoCardsmalliIcon2,
+.title3 {
+  align-self: stretch;
+  position: relative;
+}
+.title3 {
+  line-height: 26px;
+  font-weight: 500;
+}
+.body3 {
+  margin: 0;
+  font-size: var(--regular-12-size);
+  line-height: 18px;
+  color: var(--colour-main-grey-600);
+}
+.elementcardinfoCardmedium2,
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.titleContainer {
+  align-self: stretch;
+  gap: var(--gap-7xs);
+}
+.elementcardinfoCardmedium2 {
+  flex: 1;
+  padding: 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+  gap: var(--gap-sm);
+  min-width: 211px;
+  max-width: 100%;
+}
+.elementcardinfoCardsmalliIcon3 {
+  align-self: stretch;
+  height: 36px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.title4 {
+  position: relative;
+  line-height: 26px;
+  font-weight: 500;
+}
+.body4,
+.frameDiv,
+.title4 {
+  align-self: stretch;
+}
+.body4 {
+  margin: 0;
+  position: relative;
+  font-size: var(--regular-12-size);
+  line-height: 18px;
+  color: var(--colour-main-grey-600);
+}
+.frameDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.elementcardinfoCardmedium3,
+.elementcardinfoCardmediumGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.elementcardinfoCardmedium3 {
+  flex: 1;
+  flex-direction: column;
+  padding: 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+  gap: var(--gap-sm);
+  min-width: 211px;
+}
+.elementcardinfoCardmediumGroup {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-6xl);
+}
+.cardIconList,
+.infoCardTitle {
+  align-self: stretch;
+  flex-direction: column;
+}
+.cardIconList {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+  font-size: var(--medium-16-size);
+}
+.infoCardTitle {
+  gap: var(--gap-41xl);
+}
+.infoCardTitle,
+.infoCards,
+.sectionfeaturesmulti63 {
+  max-width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.infoCards {
+  width: 675px;
+  flex-direction: column;
+  padding: var(--padding-121xl) 0 0;
+  box-sizing: border-box;
+  min-width: 675px;
+}
+.sectionfeaturesmulti63 {
+  width: 1440px;
+  background-color: var(--colour-background-light-grey);
+  overflow: hidden;
+  flex-direction: row;
+  gap: var(--gap-106xl);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--medium-36-size);
+  color: var(--colour-main-blue-900);
+  font-family: var(--regular-12);
+}
+@media screen and (max-width: 1250px) {
+  .imageIcon,
+  .infoCards {
+    flex: 1;
+  }
+  .sectionfeaturesmulti63 {
+    flex-wrap: wrap;
+    gap: var(--gap-43xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .title {
+    font-size: var(--font-size-10xl);
+    line-height: 38px;
+  }
+  .elementcardinfoCardmediumGroup,
+  .elementcardinfoCardmediumParent {
+    flex-wrap: wrap;
+  }
+  .cardIconList {
+    gap: var(--gap-xl);
+  }
+  .infoCardTitle {
+    gap: var(--gap-11xl);
+  }
+  .infoCards {
+    padding-top: 91px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .sectionfeaturesmulti63 {
+    gap: var(--gap-12xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .title {
+    font-size: var(--font-size-3xl);
+    line-height: 29px;
+  }
+  .textBlocksectionlargetitle {
+    padding-bottom: var(--padding-81xl);
+    box-sizing: border-box;
+  }
+  .sectionfeaturesmulti63 {
+    gap: var(--gap-base);
+  }
+}

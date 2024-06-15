@@ -1,0 +1,94 @@
+.bodyIcon,
+.reflectionsIcon,
+.screenIcon {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.bodyIcon {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.reflectionsIcon,
+.screenIcon {
+  height: 94.9%;
+  width: calc(100% - 23.4px);
+  top: 2.11%;
+  right: 11.9px;
+  bottom: 2.99%;
+  left: 11.5px;
+  z-index: 1;
+}
+.reflectionsIcon {
+  height: 98.18%;
+  top: 0.94%;
+  bottom: 0.88%;
+  object-fit: contain;
+  z-index: 2;
+}
+.cameraLens {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xl-5);
+  background-color: var(--color-black);
+}
+.groupChild,
+.groupItem {
+  position: absolute;
+  height: 92.44%;
+  width: 30.72%;
+  top: 3.11%;
+  right: 69.28%;
+  bottom: 4.44%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.groupItem {
+  height: 100%;
+  width: 33.23%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 66.77%;
+  object-fit: cover;
+}
+.camera,
+.group {
+  position: absolute;
+  height: 65.41%;
+  width: 84.63%;
+  top: 18.31%;
+  right: 7%;
+  bottom: 16.28%;
+  left: 8.37%;
+  z-index: 1;
+}
+.camera {
+  height: 3.34%;
+  width: 16.27%;
+  top: 3.46%;
+  right: 8.05%;
+  bottom: 93.2%;
+  left: 75.68%;
+  z-index: 3;
+}
+.samsung {
+  height: 1031px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}

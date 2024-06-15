@@ -1,0 +1,205 @@
+.title {
+  margin: 0;
+  align-self: stretch;
+  height: 132px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 1px;
+  line-height: 66px;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.loremIpsumDolor,
+.musDonecQuam {
+  display: block;
+}
+.body {
+  margin: 0;
+  align-self: stretch;
+  height: 164px;
+  position: relative;
+  font-size: var(--regular-18-size);
+  line-height: 30px;
+  color: var(--colour-main-blue-500);
+  display: inline-block;
+  z-index: 1;
+}
+.heroImageContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.bg {
+  height: 36px;
+  width: 189px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  background-color: var(--colour-main-blue-800);
+  display: none;
+}
+.buttonLabel {
+  flex: 1;
+  position: relative;
+  line-height: 26px;
+  font-weight: 500;
+  z-index: 1;
+}
+.elementbuttonlargefilled {
+  flex: 1;
+  border-radius: var(--br-11xs);
+  background-color: var(--colour-main-blue-800);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0;
+  box-sizing: border-box;
+  min-width: 123px;
+  white-space: nowrap;
+  cursor: pointer;
+  z-index: 1;
+}
+.bg1,
+.buttonLabel1 {
+  position: absolute;
+  left: 0;
+}
+.bg1 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0.1px;
+  bottom: 0;
+  border-radius: var(--br-11xs);
+  border: 2px solid var(--colour-main-blue-900);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.buttonLabel1 {
+  text-decoration: none;
+  width: calc(100% - 0.1px);
+  top: calc(50% - 11px);
+  line-height: 26px;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 1;
+}
+.elementbuttonlargefilledCo {
+  height: 36px;
+  flex: 1;
+  position: relative;
+  min-width: 123px;
+  z-index: 1;
+  color: var(--colour-main-blue-900);
+}
+.heroImageButtons,
+.heroImageContainer,
+.heroImageWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.heroImageButtons {
+  width: 408.3px;
+  flex-direction: row;
+  gap: var(--gap-11xl-1);
+  text-align: center;
+  font-size: var(--medium-16-size);
+  color: var(--colour-secondary-white-100-general);
+}
+.heroImageContainer,
+.heroImageWrapper {
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.heroImageWrapper {
+  align-self: stretch;
+  gap: var(--gap-50xl);
+  debug_commit: 69da668;
+}
+.heroImageContainer {
+  width: 539px;
+  padding: var(--padding-39xl) 0 0;
+  box-sizing: border-box;
+  min-width: 539px;
+}
+.designer1Icon {
+  width: 974.9px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+  max-width: 100%;
+  z-index: 1;
+}
+.heroContent {
+  width: 1296.9px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-73xl-3);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--medium-50-size);
+  color: var(--colour-main-blue-900);
+  font-family: var(--regular-12);
+}
+@media screen and (max-width: 1350px) {
+  .designer1Icon,
+  .heroImageContainer {
+    flex: 1;
+  }
+  .heroContent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .heroImageContainer {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .title {
+    font-size: var(--font-size-21xl);
+    line-height: 53px;
+  }
+  .heroImageWrapper {
+    gap: var(--gap-15xl);
+  }
+  .heroImageContainer {
+    padding-top: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+  .heroContent {
+    gap: var(--gap-27xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .title {
+    font-size: var(--font-size-11xl);
+    line-height: 40px;
+  }
+  .heroImageButtons {
+    flex-wrap: wrap;
+    gap: var(--gap-mini);
+  }
+  .heroImageWrapper {
+    gap: var(--gap-mid);
+  }
+  .heroContent {
+    gap: var(--gap-4xl);
+  }
+}

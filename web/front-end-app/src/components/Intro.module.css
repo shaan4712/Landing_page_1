@@ -1,0 +1,121 @@
+.rectangle {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.undrawHappyNewsHxmtIcon {
+  height: 315.8px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: contain;
+  min-width: 312px;
+  z-index: 1;
+}
+.title {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 1;
+}
+.loremIpsumDolor,
+.musDonecQuam {
+  display: block;
+}
+.body {
+  margin: 0;
+  align-self: stretch;
+  height: 166px;
+  position: relative;
+  font-size: var(--medium-16-size);
+  line-height: 26px;
+  color: var(--colour-main-blue-400);
+  display: inline-block;
+  z-index: 1;
+}
+.titleParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.intro,
+.introInner {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.introInner {
+  width: 445px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-17xl-2);
+  min-width: 445px;
+}
+.intro {
+  flex: 1;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-103xl-4) var(--padding-146xl) var(--padding-111xl-8)
+    var(--padding-176xl);
+  position: relative;
+  gap: var(--gap-136xl);
+  text-align: left;
+  font-size: var(--medium-36-size);
+  color: var(--colour-main-blue-900);
+  font-family: var(--regular-12);
+}
+@media screen and (max-width: 1350px) {
+  .introInner {
+    flex: 1;
+  }
+  .intro {
+    flex-wrap: wrap;
+    gap: var(--gap-58xl);
+    padding-left: var(--padding-78xl);
+    padding-right: var(--padding-63xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .introInner {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .title {
+    font-size: var(--font-size-10xl);
+    line-height: 38px;
+  }
+  .intro {
+    gap: var(--gap-20xl);
+    padding: var(--padding-61xl) var(--padding-22xl) var(--padding-66xl)
+      var(--padding-29xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .title {
+    font-size: var(--font-size-3xl);
+    line-height: 29px;
+  }
+  .intro {
+    gap: var(--gap-lgi);
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

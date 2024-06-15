@@ -1,0 +1,221 @@
+.mask,
+.title {
+  position: relative;
+}
+.mask {
+  height: 742px;
+  width: 1440px;
+  display: none;
+  max-width: 100%;
+}
+.title {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  line-height: 48px;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 2;
+}
+.loremIpsumDolor,
+.musDonecQuam {
+  display: block;
+}
+.body,
+.cardInfo {
+  align-self: stretch;
+}
+.body {
+  margin: 0;
+  height: 140px;
+  position: relative;
+  font-size: var(--medium-16-size);
+  line-height: 26px;
+  color: var(--colour-main-blue-400);
+  display: inline-block;
+  z-index: 2;
+}
+.cardInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.elementcardinfoCardsmalliIcon {
+  height: 36px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.body1,
+.elementcardinfoCardsmalliIcon,
+.title1 {
+  align-self: stretch;
+  position: relative;
+  z-index: 2;
+}
+.title1 {
+  line-height: 26px;
+  font-weight: 500;
+}
+.body1 {
+  margin: 0;
+  font-size: var(--regular-12-size);
+  line-height: 18px;
+  color: var(--colour-main-grey-600);
+}
+.infoCardPair,
+.smallCardInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.smallCardInfo {
+  align-self: stretch;
+  gap: var(--gap-7xs);
+}
+.infoCardPair {
+  flex: 1;
+  gap: var(--gap-sm);
+  min-width: 166px;
+}
+.elementcardinfoCardsmalliIcon1 {
+  height: 36px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.body2,
+.elementcardinfoCardsmalliIcon1,
+.title2 {
+  align-self: stretch;
+  position: relative;
+  z-index: 2;
+}
+.title2 {
+  line-height: 26px;
+  font-weight: 500;
+}
+.body2 {
+  margin: 0;
+  font-size: var(--regular-12-size);
+  line-height: 18px;
+  color: var(--colour-main-grey-600);
+}
+.titleParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.infoCardPair1 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-sm);
+  min-width: 166px;
+}
+.cardContainer,
+.cardContent,
+.infoCardPair1,
+.infoCards {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.infoCards {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-11xl);
+  font-size: var(--medium-16-size);
+}
+.cardContainer,
+.cardContent {
+  flex-direction: column;
+}
+.cardContent {
+  align-self: stretch;
+  gap: var(--gap-61xl);
+}
+.cardContainer {
+  flex: 1;
+  padding: var(--padding-31xl-4) 0 0;
+  box-sizing: border-box;
+  min-width: 351px;
+  max-width: 100%;
+}
+.undrawMobileLoginIkmvIcon {
+  height: 524.3px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: contain;
+  min-width: 351px;
+  z-index: 2;
+}
+.undrawMobileLoginIkmvEle {
+  align-self: stretch;
+  background-color: var(--color-black);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-90xl-6) var(--padding-146xl) var(--padding-89xl-1);
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--medium-36-size);
+  color: var(--colour-main-blue-900);
+  font-family: var(--regular-12);
+}
+@media screen and (max-width: 1050px) {
+  .title {
+    font-size: var(--font-size-10xl);
+    line-height: 38px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .infoCards {
+    flex-wrap: wrap;
+  }
+  .cardContent {
+    gap: var(--gap-21xl);
+  }
+  .cardContainer {
+    padding-top: var(--padding-14xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .undrawMobileLoginIkmvIcon {
+    min-width: 100%;
+  }
+  .undrawMobileLoginIkmvEle {
+    gap: var(--gap-mini);
+    padding: var(--padding-52xl) var(--padding-63xl) var(--padding-51xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .title {
+    font-size: var(--font-size-3xl);
+    line-height: 29px;
+  }
+  .cardContent {
+    gap: var(--gap-xl);
+  }
+  .undrawMobileLoginIkmvEle {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

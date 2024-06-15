@@ -1,0 +1,186 @@
+.about {
+  text-decoration: none;
+  position: relative;
+  line-height: 24px;
+  color: inherit;
+  cursor: pointer;
+}
+.aboutPoints {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.products {
+  text-decoration: none;
+  position: relative;
+  line-height: 24px;
+  color: inherit;
+  cursor: pointer;
+}
+.aboutPoints1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.contact {
+  text-decoration: none;
+  position: relative;
+  line-height: 24px;
+  color: inherit;
+  cursor: pointer;
+}
+.aboutPoints2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.bg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-11xs);
+  background-color: var(--colour-main-blue-800);
+}
+.buttonLabel {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+  color: inherit;
+  z-index: 1;
+}
+.aboutContent,
+.elementbuttonsmallfilled {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.elementbuttonsmallfilled {
+  width: 109px;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0;
+  position: relative;
+  white-space: nowrap;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--regular-12-size);
+  color: var(--colour-secondary-white-100-general);
+}
+.aboutContent {
+  width: 403px;
+  justify-content: space-between;
+  padding: 0 0 var(--padding-13xl);
+  max-width: 100%;
+  gap: var(--gap-xl);
+  color: var(--colour-main-blue-300);
+}
+.title {
+  margin: 0;
+  align-self: stretch;
+  height: 96px;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+}
+.loremIpsumDolor,
+.musDonecQuam {
+  display: block;
+}
+.body {
+  margin: 0;
+  align-self: stretch;
+  height: 140px;
+  position: relative;
+  font-size: var(--medium-16-size);
+  line-height: 26px;
+  color: var(--colour-main-blue-400);
+  display: inline-block;
+}
+.description,
+.textBlocksectionlargetitle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.textBlocksectionlargetitle {
+  flex: 1;
+  flex-direction: column;
+  padding: 0 0 var(--padding-12xs);
+  gap: var(--gap-base);
+}
+.description {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 var(--padding-smi);
+  font-size: var(--medium-36-size);
+}
+.cardList {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-21xl);
+}
+.aboutContentParent,
+.cardList,
+.cards {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.cards {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-smi);
+  box-sizing: border-box;
+  font-size: var(--medium-16-size);
+}
+.aboutContentParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-51xl);
+  min-width: 359px;
+  text-align: left;
+  font-size: var(--regular-14-size);
+  color: var(--colour-main-blue-900);
+  font-family: var(--regular-12);
+}
+@media screen and (max-width: 750px) {
+  .title {
+    font-size: var(--font-size-10xl);
+    line-height: 38px;
+  }
+  .cardList {
+    gap: var(--gap-xl);
+  }
+  .aboutContentParent {
+    gap: var(--gap-16xl);
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .title {
+    font-size: var(--font-size-3xl);
+    line-height: 29px;
+  }
+  .aboutContentParent {
+    gap: var(--gap-mid);
+  }
+}
